@@ -9,6 +9,8 @@
  * ============================================================================
  */
 
+require_once __DIR__ . '/Report.php';
+
 final class PdfReportDecorator implements Report
 {
     public function __construct(private Report $report) {}
